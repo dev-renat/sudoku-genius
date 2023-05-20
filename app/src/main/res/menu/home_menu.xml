@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item-->
+<!--        android:id="@+id/action_leaderboard"-->
+<!--        android:icon="@drawable/icon_leaderboard_outline"-->
+<!--        android:title="@string/leaderboard"-->
+<!--        app:showAsAction="always" />-->
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/icon_account_outline"
+        android:title="@string/account"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_theme"
+        android:icon="@drawable/icon_color_outline"
+        android:title="@string/theme"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_guide"
+        android:icon="@drawable/icon_help"
+        android:title="@string/guide"
+        app:showAsAction="always" />
+</menu>

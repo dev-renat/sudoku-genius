@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">스도쿠 지니어스</string>
+    <string name="new_game">새 게임</string>
+    <string name="resume_game">게임 재개</string>
+    <string name="difficulty">난이도</string>
+    <string name="select_difficulty">난이도 선택:</string>
+    <string name="game_complete">게임 완료!</string>
+    <string name="congratulations">축하합니다!</string>
+    <string name="play_again">다시 플레이하시겠습니까?</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="cancel">취소</string>
+    <string name="pause">일시 중지</string>
+    <string name="resume">재개</string>
+    <string name="back_to_menu">메뉴로 돌아가기</string>
+    <string name="help">힌트</string>
+    <string name="wrong">틀림</string>
+    <string name="incorrect_value">1에서 9까지의 값을 입력하십시오</string>
+    <string name="square_conflict">칸 충돌</string>
+    <string name="row_conflict">행 충돌</string>
+    <string name="column_conflict">열 충돌</string>
+    <string name="settings">설정</string>
+    <string name="sound">소리</string>
+    <string name="music">음악</string>
+    <string name="vibration">진동</string>
+    <string name="language">언어</string>
+    <string name="about">정보</string>
+    <string name="developer">개발자</string>
+    <string name="version">버전</string>
+    <string name="privacy_policy">개인정보 보호정책</string>
+    <string name="terms_of_use">이용 약관</string>
+    <string name="rate_app">앱 평가하기</string>
+    <string name="share_app">앱 공유하기</string>
+    <string name="exit">종료</string>
+    <string name="loading">로딩 중…</string>
+    <string name="saving">저장 중…</string>
+    <string name="loading_error">로딩 오류</string>
+    <string name="saving_error">저장 오류</string>
+    <string name="no_internet_connection">인터넷 연결 없음</string>
+    <string name="internet_connection_error">인터넷 연결 오류</string>
+    <string name="restart">다시 시작</string>
+    <string name="are_you_sure">확실합니까?</string>
+    <string name="delete">삭제</string>
+    <string name="delete_all">모두 삭제</string>
+    <string name="deleted">삭제됨</string>
+    <string name="undo">실행 취소</string>
+    <string name="redo">다시 실행</string>
+
+    <string name="restart_game">게임을 다시 시작하시겠습니까?</string>
+    <string name="reset_board">보드를 초기화하시겠습니까?</string>
+    <string name="confirm">확인</string>
+    <string name="loading_game">게임 로딩 중…</string>
+    <string name="saving_game">게임 저장 중…</string>
+    <string name="game_saved">게임 저장됨</string>
+    <string name="game_loaded">게임 로드됨</string>
+    <string name="game_save_error">게임 저장 오류</string>
+    <string name="game_load_error">게임 로딩 오류</string>
+    <string name="enter_name">이름 입력</string>
+    <string name="save_score">점수 저장</string>
+    <string name="high_scores">최고 점수</string>
+    <string name="score">점수</string>
+    <string name="name">이름</string>
+    <string name="rank">순위</string>
+    <string name="no_scores">점수 없음</string>
+    <string name="time">시간</string>
+    <string name="moves">이동</string>
+    <string name="new_high_score">새로운 최고 점수!</string>
+    <string name="high_score_saved">최고 점수 저장됨</string>
+    <string name="high_score_save_error">최고 점수 저장 오류</string>
+    <string name="share_score">점수 공유</string>
+    <string name="share">공유</string>
+    <string name="congratulations_new_high_score">축하합니다! 새로운 최고 점수를 설정하셨습니다!</string>
+    <string name="game_over">게임 오버</string>
+    <string name="game_over_message">게임 오버! 허용된 최대 오류 수를 초과했습니다.</string>
+    <string name="watch_ad">광고 보기</string>
+    <string name="no_thanks">아니요, 고맙습니다</string>
+    <string name="ad_reward">광고를 본 후, 오류 수가 1개 줄어듭니다.</string>
+    <string name="ad_loading_error">광고 로딩 오류. 나중에 다시 시도해 주십시오.</string>
+    <string name="ad_reward_error">보상 오류. 나중에 다시 시도해 주십시오.</string>
+    <string name="ad_reward_success">광고를 시청한 보상을 받았습니다. 오류 수가 1개 줄었습니다.</string>
+    <string name="version_name">버전 %1$s</string>
+
+    <string name="draft">초안</string>
+    <string name="reset">재설정</string>
+    <string name="proceed">진행</string>
+    <string name="victory">승리</string>
+    <string name="you_lost">당신이 졌습니다</string>
+    <string name="logout">로그아웃</string>
+    <string name="errors">오류</string>
+    <string name="loss">패배</string>
+    <string name="beginner">초보자</string>
+    <string name="easy">쉬움</string>
+    <string name="medium">중간</string>
+    <string name="hard">어려움</string>
+    <string name="extreme">극단적</string>
+    <string name="decrement_level_button">레벨 감소 버튼</string>
+    <string name="increment_level_button">레벨 증가 버튼</string>
+    <string name="level">레벨</string>
+    <string name="error_limit">오류 한계</string>
+    <string name="mistakes_limit">오류: %1$d/%2$d</string>
+    <string name="mistakes">오류: %1$d</string>
+    <string name="reset_confirm">이 게임을 재시작하시겠습니까?</string>
+    <string name="solved_sudoku_no_new_record_message">고급 스도쿠를 %1$s 만에 해결했습니다. 당신의 최고 기록은 %2$s입니다.</string>
+    <string name="solved_sudoku_message">고급 스도쿠를 %1$s 만에 해결하고 기록인 %2$s을 갱신했습니다.</string>
+
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+
+    <string name="game_restart_confirmation">이전 게임의 저장된 진행 상황이 소실됩니다. 계속하시겠습니까?</string>
+    <string name="ask_for_hint_video">추가 힌트를 받고 싶으신가요? 짧은 비디오를 보고 받아보세요!</string>
+    <string name="ad_unavailable_try_later">죄송합니다, 광고는 현재 이용할 수 없습니다. 잠시 후 다시 시도해 주세요.</string>
+
+    <string-array name="actuality">
+        <item>스도쿠를 풀면 뇌를 회복시키고 세포 노화를 늦추는 것이 입증되었습니다.</item>
+        <item>스도쿠는 기억력, 논리적 사고를 발달시키며, 집중력을 돕고 치매 위협을 막습니다.</item>
+        <item>하루에 스도쿠 1개를 풀면 고유한 스도쿠의 수를 고려할 때 약 1천 9백만 년이 걸립니다.</item>
+        <item>스도쿠는 두뇌력을 증가시키는 비전통적이고 대안적인 방법 10가지 중 하나입니다.</item>
+        <item>스도쿠는 생각하는 사람들을 위한 게임입니다. 매일 스도쿠를 선택하면 인내심, 주의력, 기억력, 논리적 사고가 발달합니다.</item>
+        <item>일본 팀은 국제 스도쿠 해결 토너먼트에서 승리를 거둔 선두입니다. 두 번째로 가장 승리한 팀은 독일입니다.</item>
+        <item>최근까지 스도쿠 풀기의 세계 기록은 벨기에인 빈센트 베르트랑이 보유했습니다. 그의 시간은 3분 6초였습니다.</item>
+        <item>스도쿠를 빠르게 플레이하는 것은 절대로 불가능합니다. 여기서는 획득한 정보를 정렬하고, 기억하고, 반영하고, 가정을 해야 합니다.</item>
+        <item>난이도를 선택함으로써 게임의 초기 조건에 영향을 줍니다. 난이도가 높을수록 1에서 9까지의 숫자로 채워진 셀이 줄어듭니다.</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">빈 조각에 안녕하세요</string>
+    <string name="theme_button">테마 버튼</string>
+    <string name="icon_access_time">아이콘_접근_시간</string>
+    <string name="hashtag_sudoku">#스도쿠</string>
+    <string name="_copyright">저작권 © 2023 Renat Mussayev. 모든 권리 보유.</string>
+    <string name="total_games">전체 게임</string>
+    <string name="total_time">전체 시간</string>
+    <string name="best_time">최고 시간</string>
+    <string name="last_game_time">마지막 게임 시간</string>
+    <string name="leaderboard">리더보드</string>
+    <string name="confirm_exit">정말 종료하시겠습니까?</string>
+    <string name="confirm_exit_game">게임을 정말 종료하시겠습니까?</string>
+
+    <string name="rate_dialog_title">앱 평가하기</string>
+    <string name="rate_dialog_message">당신이 우리의 앱을 즐기고 있다면, Google Play Store에서 이를 평가하는데 잠시 시간을 내 주세요.</string>
+    <string name="rate_dialog_button_rate">지금 평가하기</string>
+    <string name="rate_dialog_button_later">나중에 알림</string>
+    <string name="rate_dialog_button_no">괜찮습니다</string>
+
+    <string name="ID_Interstitial">ca-app-pub-7285015329431504/4047184853</string>
+    <string name="facebook_app_id">191246880448235</string>
+    <string name="expert_mode_description">전문가 모드는 자신의 등급을 올리고 싶은 경험 많은 플레이어들을 위한 모드입니다. 이 모드에서는 게임이 휴식 없이, 힌트 없이, 그리고 진행 상황을 저장할 수 없게 플레이됩니다. 순위 게임에 참여하고 등급을 올리려면 로그인해야 합니다.</string>
+    <string name="account">계정</string>
+    <string name="theme">테마</string>
+
+    <string name="sudoku_rules_1">스도쿠는 9x9 그리드로 이루어진 논리 퍼즐로, 9개의 3x3 정사각형으로 나뉩니다. 그리드의 일부 셀은 이미 숫자로 채워져 있으며, 나머지 셀은 플레이어가 채워야 합니다.</string>
+    <string name="sudoku_rules_2">게임의 목표는 그리드의 모든 셀을 1에서 9까지의 숫자로 채워, 각 숫자가 모든 행, 모든 열, 모든 3x3 정사각형에 한 번씩만 나타나게 하는 것입니다.</string>
+    <string name="sudoku_rules_3">게임을 시작하려면 채우려는 셀을 선택하고 탭합니다. 선택한 셀이 강조 표시됩니다.</string>
+    <string name="sudoku_rules_4">다음으로, 선택한 셀에 삽입하려는 숫자를 선택하고 화면 하단의 도구 모음에 있는 해당 숫자 버튼을 탭합니다.</string>
+    <string name="sudoku_rules_5">선택한 숫자가 게임 규칙을 위반하는 경우(예: 같은 행, 열, 또는 3x3 정사각형에 이미 있을 경우), 그 숫자는 빨간색으로 강조 표시됩니다.</string>
+    <string name="sudoku_rules_6">선택한 숫자가 게임 규칙을 위반하지 않는 경우, 그 숫자는 선택한 셀에 위치합니다.</string>
+    <string name="sudoku_rules_7">그리드의 모든 셀을 채울 때까지 셀 채우기를 계속합니다.</string>
+    <string name="sudoku_rules_8">궁금증이 생겨 어떤 숫자를 셀에 넣어야 할지 모를 경우, 선택한 셀에 대한 힌트를 얻기 위해 도구 모음의 "힌트" 버튼을 탭할 수 있습니다.</string>
+    <string name="sudoku_rules_9">모든 셀을 올바르게 채우면 축하합니다, 게임에서 이겼습니다!</string>
+    <string name="guide">가이드</string>
+    <string name="wins">승리</string>
+    <string name="losses">패배</string>
+    <string name="game_statistics">게임 통계</string>
+    <string name="thank_you_review">리뷰 감사합니다!</string>
+    <string name="used_all_hints">죄송합니다만, 모든 힌트를 사용하셨습니다.</string>
+    <string name="disable_error_limit">제한 없이 플레이하고 싶거나, 오류의 수에 대해 걱정하지 않고 싶다면 이 기능을 비활성화할 수 있습니다. 즐거운 게임 되세요!</string>
+    <string name="game_description">친구들, 여러분의 피드백은 저에게 매우 중요합니다. 매일 게임을 개선하는 동기가 됩니다. Google Play에서 리뷰를 남겨주시면 어떤 부분을 개선할 수 있는지와 이미 잘 된 부분에 대해 알 수 있습니다. 지원과 소중한 의견에 감사드립니다!</string>
+</resources>

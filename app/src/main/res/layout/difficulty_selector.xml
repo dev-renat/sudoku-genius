@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageButton
+        android:id="@+id/decrementDifficultyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/level_button_increment"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/difficultyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        tools:text="Medium" />
+
+    <ImageButton
+        android:id="@+id/incrementDifficultyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/level_button_decrement"
+        tools:ignore="ContentDescription" />
+</merge>

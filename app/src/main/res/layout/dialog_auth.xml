@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_48dp">
+
+    <LinearLayout
+        style="@style/dialog">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_20dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:text="EXPERT"
+                style="@style/dialogTitle"/>
+
+            <TextView
+                android:text="@string/expert_mode_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginVertical="@dimen/_5dp"
+                android:textColor="?attr/colorOnPrimaryVariant"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:lineSpacingExtra="@dimen/_6dp"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dialog_cancel_button"
+            android:background="@drawable/button_circle"
+            android:stateListAnimator="@null"
+            android:text="X"
+            android:layout_width="@dimen/_48dp"
+            android:layout_height="@dimen/_48dp"/>
+    </LinearLayout>
+
+</LinearLayout>

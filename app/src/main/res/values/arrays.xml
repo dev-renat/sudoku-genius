@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cell_images">
+        <item>@drawable/thumb_up</item>
+        <item>@drawable/thumb_up</item>
+        <item>@drawable/thumb_up</item>
+        <item>@drawable/thumb_up</item>
+        <item>@drawable/thumb_up</item>
+        <item>@drawable/thumb_up</item>
+        <item>@drawable/thumb_up</item>
+        <item>@drawable/thumb_up</item>
+        <item>@drawable/thumb_up</item>
+        <!-- и т.д., добавьте все 9 изображений -->
+    </array>
+</resources>

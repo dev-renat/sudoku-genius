@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Sudoku Genius</string>
+    <string name="new_game">Новая игра</string>
+    <string name="resume_game">Продолжить игру</string>
+    <string name="difficulty">Сложность</string>
+    <string name="select_difficulty">Выберите сложность:</string>
+    <string name="game_complete">Игра завершена!</string>
+    <string name="congratulations">Поздравляем!</string>
+    <string name="play_again">Сыграть ещё раз?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="cancel">Отмена</string>
+    <string name="pause">Пауза</string>
+    <string name="resume">Продолжить</string>
+    <string name="back_to_menu">Вернуться в меню</string>
+    <string name="help">Подсказка</string>
+    <string name="wrong">Ошибка</string>
+    <string name="incorrect_value">Введите значение от 1 до 9</string>
+    <string name="square_conflict">Конфликт в квадрате</string>
+    <string name="row_conflict">Конфликт в строке</string>
+    <string name="column_conflict">Конфликт в столбце</string>
+    <string name="settings">Настройки</string>
+    <string name="sound">Звук</string>
+    <string name="music">Музыка</string>
+    <string name="vibration">Вибрация</string>
+    <string name="language">Язык</string>
+    <string name="about">О приложении</string>
+    <string name="developer">Разработчик</string>
+    <string name="version">Версия</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="terms_of_use">Условия использования</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="exit">Выход</string>
+    <string name="loading">Загрузка…</string>
+    <string name="saving">Сохранение…</string>
+    <string name="loading_error">Ошибка загрузки</string>
+    <string name="saving_error">Ошибка сохранения</string>
+    <string name="no_internet_connection">Нет подключения к интернету</string>
+    <string name="internet_connection_error">Ошибка подключения к интернету</string>
+    <string name="restart">Перезапустить</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_all">Удалить все</string>
+    <string name="deleted">Удалено</string>
+    <string name="undo">Отменить</string>
+    <string name="redo">Повторить</string>
+
+    <string name="restart_game">Перезапустить игру?</string>
+    <string name="reset_board">Сбросить доску?</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="loading_game">Загрузка игры…</string>
+    <string name="saving_game">Сохранение игры…</string>
+    <string name="game_saved">Игра сохранена</string>
+    <string name="game_loaded">Игра загружена</string>
+    <string name="game_save_error">Ошибка сохранения игры</string>
+    <string name="game_load_error">Ошибка загрузки игры</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="save_score">Сохранить результат</string>
+    <string name="high_scores">Лучшие результаты</string>
+    <string name="score">Очки</string>
+    <string name="name">Имя</string>
+    <string name="rank">Ранг</string>
+    <string name="no_scores">Нет результатов</string>
+    <string name="time">Время</string>
+    <string name="moves">Ходы</string>
+    <string name="new_high_score">Новый рекорд!</string>
+    <string name="high_score_saved">Рекорд сохранен</string>
+    <string name="high_score_save_error">Ошибка сохранения рекорда</string>
+    <string name="share_score">Поделиться результатом</string>
+    <string name="share">Поделиться</string>
+    <string name="congratulations_new_high_score">Поздравляем! Вы установили новый рекорд!</string>
+    <string name="game_over">Игра окончена</string>
+    <string name="game_over_message">Игра окончена! Вы превысили максимальное количество ошибок.</string>
+    <string name="watch_ad">Посмотреть рекламу</string>
+    <string name="no_thanks">Нет, спасибо</string>
+    <string name="ad_reward">После просмотра рекламы количество ошибок будет уменьшено на 1.</string>
+    <string name="ad_loading_error">Ошибка загрузки рекламы. Пожалуйста, попробуйте позже.</string>
+    <string name="ad_reward_error">Ошибка получения вознаграждения. Пожалуйста, попробуйте позже.</string>
+    <string name="ad_reward_success">Вы получили вознаграждение за просмотр рекламы. Количество ошибок уменьшилось на 1.</string>
+    <string name="version_name">Версия %1$s</string>
+
+    <string name="draft">Черновик</string>
+    <string name="reset">Сбросить</string>
+    <string name="proceed">Продолжить</string>
+    <string name="victory">Победа</string>
+    <string name="you_lost">Вы проиграли</string>
+    <string name="logout">Выйти</string>
+    <string name="errors">Ошибки</string>
+    <string name="loss">Поражение</string>
+    <string name="beginner">Новичок</string>
+    <string name="easy">Легко</string>
+    <string name="medium">Средне</string>
+    <string name="hard">Трудно</string>
+    <string name="extreme">Экстремально</string>
+    <string name="decrement_level_button">Уменьшить уровень</string>
+    <string name="increment_level_button">Увеличить уровень</string>
+    <string name="level">Уровень</string>
+    <string name="error_limit">Лимит ошибок</string>
+    <string name="mistakes_limit">Ошибки: %1$d/%2$d</string>
+    <string name="mistakes">Ошибки: %1$d</string>
+    <string name="reset_confirm">Вы уверены, что хотите перезапустить эту игру?</string>
+    <string name="solved_sudoku_no_new_record_message">Вы решили сложное судоку за %1$s. Ваш лучший результат: %2$s.</string>
+    <string name="solved_sudoku_message">Вы решили сложное судоку за %1$s и побили свой лучший результат: %2$s</string>
+
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+
+    <string name="game_restart_confirmation">Ваши сохраненные данные предыдущей игры будут потеряны. Вы уверены, что хотите продолжить?</string>
+    <string name="ask_for_hint_video">Хотите получить дополнительную подсказку? Посмотрите короткое видео, чтобы получить её!</string>
+    <string name="ad_unavailable_try_later">К сожалению, реклама в настоящее время недоступна. Пожалуйста, попробуйте позже.</string>
+
+    <string-array name="actuality">
+        <item>Доказано, что решение судоку способствует омоложению мозга и задерживает старение клеток.</item>
+        <item>Судоку развивает память, логическое мышление, помогает концентрацией и борется угрозой слабоумия.</item>
+        <item>Если разгадывать по 1 судоку в день, вам потребуется около 19 миллионов лет, с учётом количества уникальных судоку.</item>
+        <item>Головоломка судоку входит в десятку крупнейших нетрадиционных и альтернативных способов увеличения возможностей мозга.</item>
+        <item>Судоку игра для думающих людей. Если решать судоку каждый день, развивается терпение, внимание, память, логическое мышление.</item>
+        <item>Сборная Японии-лидер по победам международном турнире по решению судоку. Вторая по количеству побед команда из Германии.</item>
+        <item>Мировой рекорд по разгадыванию судоку до последнего времени принадлежал бельгийцу Винценту Бертранду. Его время составляло 3 минуты 6 секунд.</item>
+        <item>Играть в судоку быстро категорически нельзя. Здесь приобретённую информацию необходимо раскладывать по полочкам, запоминать, размышлять, делать предположения.</item>
+        <item>Выбирая уровень сложности, Вы влияете на начальные условия игры. Чем выше сложность, тем меньше клеток заполнено цифрами (от 1 до 9).</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Привет, пустой фрагмент</string>
+    <string name="theme_button">Кнопка темы</string>
+    <string name="icon_access_time">icon_access_time</string>
+    <string name="hashtag_sudoku">#Судоку</string>
+    <string name="_copyright">Copyright © 2023 Renat Mussayev. All rights reserved.</string>
+    <string name="total_games">Всего игр</string>
+    <string name="total_time">Общее время</string>
+    <string name="best_time">Лучшее время</string>
+    <string name="last_game_time">Время последней игры</string>
+    <string name="leaderboard">Таблица лидеров</string>
+    <string name="confirm_exit">Вы уверены, что хотите выйти?</string>
+    <string name="confirm_exit_game">Вы действительно хотите завершить игру?</string>
+
+    <string name="rate_dialog_title">Оцените наше приложение</string>
+    <string name="rate_dialog_message">Если вам нравится наше приложение, пожалуйста, найдите минутку, чтобы оценить его в Google Play Store.</string>
+    <string name="rate_dialog_button_rate">Оценить сейчас</string>
+    <string name="rate_dialog_button_later">Напомнить позже</string>
+    <string name="rate_dialog_button_no">Нет, спасибо</string>
+
+    <string name="ID_Interstitial">ca-app-pub-7285015329431504/4047184853</string>
+    <string name="facebook_app_id">191246880448235</string>
+    <string name="expert_mode_description">Экспертный режим предназначен для опытных игроков, которые хотят повысить свой рейтинг. В этом режиме игра проходит без пауз, подсказок и без возможности сохранения прогресса. Чтобы участвовать в рейтинговых играх и повысить свой рейтинг, вам необходимо войти в систему.</string>
+    <string name="account">Аккаунт</string>
+    <string name="theme">Тема</string>
+
+    <string name="sudoku_rules_1">Судоку - это логическая головоломка, состоящая из сетки 9x9, разделенной на 9 квадратов 3x3. Некоторые ячейки сетки уже заполнены числами, в то время как остальные ячейки должны быть заполнены игроком.</string>
+    <string name="sudoku_rules_2">Цель игры - заполнить все ячейки сетки числами от 1 до 9 таким образом, чтобы каждая цифра встречалась только один раз в каждой строке, каждом столбце и каждом квадрате 3x3.</string>
+    <string name="sudoku_rules_3">Для начала игры выберите ячейку, которую вы хотите заполнить, и нажмите на нее. Выбранная ячейка будет подсвечена.</string>
+    <string name="sudoku_rules_4">Затем выберите число, которое вы хотите вставить в выбранную ячейку, и нажмите на кнопку с этим числом на панели инструментов внизу экрана.</string>
+    <string name="sudoku_rules_5">Если выбранное вами число нарушает правила игры (например, если оно уже присутствует в той же строке, столбце или квадрате 3x3), оно будет подсвечено красным.</string>
+    <string name="sudoku_rules_6">Если выбранное вами число не нарушает правила игры, оно будет помещено в выбранную ячейку.</string>
+    <string name="sudoku_rules_7">Продолжайте заполнять ячейки, пока вы не заполните все ячейки сетки.</string>
+    <string name="sudoku_rules_8">Если вы застряли и не знаете, какое число вставить в ячейку, вы можете нажать кнопку "Подсказка" на панели инструментов, чтобы получить подсказку для выбранной ячейки.</string>
+    <string name="sudoku_rules_9">Если вы правильно заполнили все ячейки, поздравляем, вы выиграли игру!</string>
+    <string name="guide">Руководство</string>
+    <string name="wins">Победы</string>
+    <string name="losses">Поражения</string>
+    <string name="game_statistics">Статистика игры</string>
+    <string name="thank_you_review">Спасибо за ваш отзыв!</string>
+    <string name="used_all_hints">Извините, но вы использовали все подсказки.</string>
+    <string name="disable_error_limit">Если вы хотите играть без ограничений и не беспокоиться о количестве ошибок, вы можете отключить эту функцию. Наслаждайтесь игрой!</string>
+    <string name="game_description">Ребята, ваш фидбек очень важен для меня, именно он мотивирует меня совершенствовать игру каждый день. Оставьте отзыв на Google Play, это поможет мне понять, что можно улучшить, а что уже получилось хорошо. Спасибо за поддержку и ваши пожелания!</string>
+</resources>

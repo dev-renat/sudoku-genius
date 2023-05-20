@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основной цвет темы, используется для фона и других элементов -->
+    <attr name="colorPrimary" format="color"/>
+    <!--используется для создания теней и градиентов, связанных с colorPrimary.-->
+    <attr name="colorPrimaryVariant" format="color"/>
+
+    <!-- Вторичный цвет темы, используется для выделения элементов -->
+    <attr name="colorSecondary" format="color"/>
+    <!--colorSecondaryVariant - используется для создания теней и градиентов, связанных с colorSecondary.-->
+    <attr name="colorSecondaryVariant" format="color"/>
+
+    <!-- Цвет текста и значков на цвете colorPrimary -->
+    <attr name="colorOnPrimary" format="color"/>
+    <attr name="colorOnPrimaryVariant" format="color"/>
+
+    <!-- Цвет текста и значков на цвете colorSecondary -->
+    <attr name="colorOnSecondary" format="color"/>
+
+    <!-- Цвет акцентных элементов, таких как кнопки и переключатели -->
+    <attr name="colorAccent" format="color"/>
+    <attr name="colorAccentVariant" format="color"/>
+
+    <!-- Цвет текста внутри акцентных элементов -->
+    <attr name="colorOnAccent" format="color"/>
+
+    <!-- Цвет фона для диалоговых окон -->
+    <attr name="colorDialogBackground" format="color"/>
+
+    <!-- Цвет заголовков в диалоговых окнах -->
+    <attr name="colorDialogTitle" format="color"/>
+
+    <!-- Цвет текста в диалоговых окнах -->
+    <attr name="colorDialogText" format="color"/>
+
+    <!-- Цвет фона для панели инструментов -->
+    <attr name="colorToolbarBackground" format="color"/>
+
+    <!-- Цвет текста и значков на панели инструментов -->
+    <attr name="colorToolbarText" format="color"/>
+
+    <!-- Цвет фона для кнопок -->
+    <attr name="colorButtonBackground" format="color"/>
+
+    <!-- Цвет текста на кнопках -->
+    <attr name="colorButtonText" format="color"/>
+
+    <!-- Цвет фона для ячеек судоку -->
+    <attr name="colorCellBackground" format="color"/>
+
+    <!-- Цвет текста в ячейках судоку -->
+    <attr name="colorCellText" format="color"/>
+
+    <!-- Цвет выделенной ячейки судоку -->
+    <attr name="colorCellSelected" format="color"/>
+
+    <!-- Цвет текста в выделенной ячейке судоку -->
+    <attr name="colorCellSelectedText" format="color"/>
+
+
+    <!--BUTTON SOLID-->
+    <attr name="buttonSolidStrokeColorPressedFalse" format="color"/>
+    <attr name="buttonSolidStrokeColorPressedTrue" format="color"/>
+    <attr name="buttonSolidBGColorPressedFalse" format="color"/>
+    <attr name="buttonSolidBGColorPressedTrue" format="color"/>
+    <attr name="buttonSolidBGColorStart" format="color"/>
+    <attr name="buttonSolidBGColorEnd" format="color"/>
+    <attr name="buttonSolidTextColorPressedFalse" format="color"/>
+    <attr name="buttonSolidTextColorPressedTrue" format="color"/>
+
+    <!--BUTTON OUTLINE-->
+    <attr name="buttonOutlineStrokeColorPressedFalse" format="color"/>
+    <attr name="buttonOutlineStrokeColorPressedTrue" format="color"/>
+    <attr name="buttonOutlineBGColorPressedFalse" format="color"/>
+    <attr name="buttonOutlineBGColorPressedTrue" format="color"/>
+    <attr name="buttonOutlineBGColorStart" format="color"/>
+    <attr name="buttonOutlineBGColorEnd" format="color"/>
+    <attr name="buttonOutlineTextColorPressedFalse" format="color"/>
+    <attr name="buttonOutlineTextColorPressedTrue" format="color"/>
+
+
+
+
+
+
+
+
+
+
+
+    <!---->
+    <attr name="colorLink" format="color"/>
+
+
+    <!---->
+
+    <attr name="themeSelectStrokeColor" format="color"/>
+    <attr name="themeSelectBGColor" format="color"/>
+
+    <attr name="buttonOutlineStrokeColorStatePressedFalse" format="color"/>
+    <attr name="buttonOutlineStrokeColorStatePressedTrue" format="color"/>
+    <attr name="buttonOutlineBGColorStatePressedFalse" format="color"/>
+    <attr name="buttonOutlineBGColorStatePressedTrue" format="color"/>
+    <attr name="buttonOutlineTextColorStatePressedFalse" format="color"/>
+    <attr name="buttonOutlineTextColorStatePressedTrue" format="color"/>
+
+<!--    <attr name="buttonSolidBGColorStatePressedFalse2" format="color"/>-->
+<!--    <attr name="buttonSolidBGColorStatePressedTrue2" format="color"/>-->
+    <attr name="buttonSolidStrokeColorStatePressedFalse" format="color"/>
+    <attr name="buttonSolidStrokeColorStatePressedTrue" format="color"/>
+
+    <attr name="buttonSolidTextColorStatePressedFalse" format="color"/>
+    <attr name="buttonSolidTextColorStatePressedTrue" format="color"/>
+
+    <!--========== ICONS ==========-->
+
+    <!--ICON DRAFT-->
+    <attr name="iconDraftColor" format="color"/>
+    <!--ICON DRAFT ACTIVE-->
+    <attr name="iconDraftColorActivity" format="color"/>
+
+    <!--========== ICONS ==========-->
+
+    <!--========== BUTTONS ==========-->
+
+    <!--BUTTON INPUT NUMBER-->
+    <attr name="buttonInputStrokeColorStatePressedFalse" format="color"/>
+    <attr name="buttonInputStrokeColorStatePressedTrue" format="color"/>
+    <attr name="buttonInputBackgroundColorStatePressedFalse" format="color"/>
+    <attr name="buttonInputBackgroundColorStatePressedTrue" format="color"/>
+    <attr name="buttonInputTextColor" format="color"/>
+
+    <!--BUTTON INPUT NUMBER ACTIVE-->
+    <attr name="buttonInputActiveStrokeColorStatePressedFalse" format="color"/>
+    <attr name="buttonInputActiveStrokeColorStatePressedTrue" format="color"/>
+    <attr name="buttonInputActiveBackgroundColorStatePressedFalse" format="color"/>
+    <attr name="buttonInputActiveBackgroundColorStatePressedTrue" format="color"/>
+    <attr name="buttonInputTextColorActive" format="color"/>
+
+    <!--BUTTON DRAFT-->
+    <attr name="buttonCircleStrokeColorStatePressedFalse" format="color"/>
+    <attr name="buttonCircleStrokeColorStatePressedTrue" format="color"/>
+    <attr name="buttonCircleBackgroundColorStatePressedFalse" format="color"/>
+    <attr name="buttonCircleBackgroundColorStatePressedTrue" format="color"/>
+    <attr name="buttonCircleTextColor" format="color"/>
+
+    <!--BUTTON DRAFT ACTIVE-->
+    <attr name="buttonCircleActiveStrokeColorStatePressedFalse" format="color"/>
+    <attr name="buttonCircleActiveStrokeColorStatePressedTrue" format="color"/>
+    <attr name="buttonCircleActiveBackgroundColorStatePressedFalse" format="color"/>
+    <attr name="buttonCircleActiveBackgroundColorStatePressedTrue" format="color"/>
+    <attr name="buttonCircleTextColorActive" format="color"/>
+
+    <!--========== BUTTONS ==========-->
+
+    <!--========== BOARD ==========-->
+    <attr name="boardBackgroundColor" format="color"/>
+    <attr name="thickLinePaintColor" format="color"/>
+    <attr name="thinLinePaintColor" format="color"/>
+
+    <!--CELL CONFLICTING-->
+    <attr name="cellPaintBGColorConflicting" format="color"/>
+    <attr name="cellPaintTextColorConflicting" format="color"/>
+
+    <!--CELL COMMON-->
+    <attr name="cellPaintBGColorCommon" format="color"/>
+    <attr name="cellPaintTextColorCommon" format="color"/>
+    <attr name="cellPaintTextFontCommon" format="reference"/>
+
+    <!--CELL EMPTY-->
+    <attr name="cellPaintBGColor" format="color"/>
+    <attr name="cellPaintTextColor" format="color"/>
+    <attr name="cellPaintTextFont" format="reference"/>
+    <!--CELL EMPTY SELECTED-->
+    <attr name="cellPaintBGColorSelected" format="color"/>
+    <attr name="cellPaintTextColorSelected" format="color"/>
+    <attr name="cellPaintTextFontSelected" format="reference"/>
+
+    <!--CELL STARTING-->
+    <attr name="cellPaintBGColorStarting" format="color"/>
+    <attr name="cellPaintTextColorStarting" format="color"/>
+    <attr name="cellPaintTextFontStarting" format="reference"/>
+
+    <!--CELL SUCCESS-->
+    <attr name="cellPaintBGColorSuccess" format="color"/>
+    <attr name="cellPaintTextColorSuccess" format="color"/>
+    <attr name="cellPaintTextFontSuccess" format="reference"/>
+    <!--CELL SUCCESS SELECTED-->
+    <attr name="cellPaintBGColorSuccessSelected" format="color"/>
+    <attr name="cellPaintTextColorSuccessSelected" format="color"/>
+    <attr name="cellPaintTextFontSuccessSelected" format="reference"/>
+
+    <!--CELL HINT-->
+    <attr name="cellPaintBGColorHint" format="color"/>
+    <attr name="cellPaintTextColorHint" format="color"/>
+    <attr name="cellPaintTextFontHint" format="reference"/>
+    <!--CELL HINT SELECTED-->
+    <attr name="cellPaintBGColorHintSelected" format="color"/>
+    <attr name="cellPaintTextColorHintSelected" format="color"/>
+    <attr name="cellPaintTextFontHintSelected" format="reference"/>
+
+    <!--CELL ERROR-->
+    <attr name="cellPaintBGColorError" format="color"/>
+    <attr name="cellPaintTextColorError" format="color"/>
+    <attr name="cellPaintTextFontError" format="reference"/>
+    <!--CELL ERROR SELECTED-->
+    <attr name="cellPaintBGColorErrorSelected" format="color"/>
+    <attr name="cellPaintTextColorErrorSelected" format="color"/>
+    <attr name="cellPaintTextFontErrorSelected" format="reference"/>
+
+    <!--CELL NOTE-->
+    <attr name="cellPaintBGColorNote" format="color"/>
+    <attr name="cellPaintTextColorNote" format="color"/>
+    <attr name="cellPaintTextFontNote" format="reference"/>
+    <!--CELL NOTE SELECTED-->
+    <attr name="cellPaintBGColorNoteSelected" format="color"/>
+    <attr name="cellPaintTextColorNoteSelected" format="color"/>
+    <attr name="cellPaintTextFontNoteSelected" format="reference"/>
+
+    <!--========== BOARD ==========-->
+
+    <!--========== GAME FRAGMENT ==========-->
+    <attr name="amountBGColor" format="color"/>
+    <attr name="amountTextColor" format="color"/>
+
+    <attr name="imageButtonControlColor" format="color"/>
+    <!--========== GAME FRAGMENT ==========-->
+
+    <!--========== DIALOG BACKGROUND ==========-->
+    <attr name="backgroundColorDialogStart" format="color"/>
+    <attr name="backgroundColorDialogEnd" format="color"/>
+    <!--=======================================-->
+
+
+    <declare-styleable name="SudokuBoardView">
+        <attr name="cellImages" format="reference" />
+    </declare-styleable>
+</resources>

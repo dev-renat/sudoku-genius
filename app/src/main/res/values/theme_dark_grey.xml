@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DarkGrey" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <!-- Основной цвет темы, используется для фона и других элементов -->
+        <item name="colorPrimary">@color/dark_grey_900</item>
+        <!--используется для создания теней и градиентов, связанных с colorPrimary.-->
+        <item name="colorPrimaryVariant">@color/dark_grey_900</item>
+
+        <!-- Вторичный цвет темы, используется для выделения элементов -->
+        <item name="colorSecondary">@color/md_grey_800</item>
+        <!--colorSecondaryVariant - используется для создания теней и градиентов, связанных с colorSecondary.-->
+        <item name="colorSecondaryVariant">@color/md_grey_400</item>
+
+        <!-- Цвет текста и значков на цвете colorPrimary -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnPrimaryVariant">@color/md_grey_700</item>
+
+        <!-- Цвет текста и значков на цвете colorSecondary -->
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Цвет акцентных элементов, таких как кнопки и переключатели -->
+        <item name="colorAccent">@color/md_grey_500</item>
+        <item name="colorAccentVariant">@color/md_grey_300</item>
+
+        <!-- Цвет текста внутри акцентных элементов -->
+        <item name="colorOnAccent">@color/md_black</item>
+
+        <item name="colorLink">@color/md_blue_500</item>
+
+
+
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+
+        <!--BUTTON OUTLINE-->
+        <item name="buttonOutlineTextColorPressedFalse">?attr/colorOnPrimary</item>
+        <item name="buttonOutlineTextColorPressedTrue">?attr/colorOnPrimary</item>
+
+
+
+
+
+        <!--BOARD-->
+        <item name="boardBackgroundColor">@color/white</item>
+        <item name="thickLinePaintColor">@color/md_grey_500</item>
+        <item name="thinLinePaintColor">@color/md_grey_500</item>
+
+        <!--CELL CONFLICTING-->
+        <item name="cellPaintBGColorConflicting">@color/md_grey_800</item>
+        <item name="cellPaintTextColorConflicting">@color/white</item>
+
+        <!--CELL COMMON-->
+        <item name="cellPaintBGColorCommon">@color/silver_gray</item>
+        <item name="cellPaintTextColorCommon">@color/silver_gray</item>
+        <item name="cellPaintTextFontCommon">@font/roboto_regular</item>
+
+        <!--CELL EMPTY-->
+        <item name="cellPaintBGColor">@color/md_grey_900</item>
+        <item name="cellPaintTextColor">@color/dark_grey_800</item>
+        <item name="cellPaintTextFont">@font/roboto_regular</item>
+        <!--CELL EMPTY SELECTED-->
+        <item name="cellPaintBGColorSelected">@color/md_grey_300</item>
+        <item name="cellPaintTextColorSelected">@color/white</item>
+        <item name="cellPaintTextFontSelected">@font/roboto_regular</item>
+
+        <!--CELL STARTING-->
+        <item name="cellPaintBGColorStarting">@color/md_grey_900</item>
+        <item name="cellPaintTextColorStarting">@color/white</item>
+        <item name="cellPaintTextFontStarting">@font/roboto_regular</item>
+
+        <!--CELL SUCCESS-->
+        <item name="cellPaintBGColorSuccess">@color/steel_blue</item>
+        <item name="cellPaintTextColorSuccess">@color/white</item>
+        <item name="cellPaintTextFontSuccess">@font/roboto_regular</item>
+        <!--CELL SUCCESS SELECTED-->
+        <item name="cellPaintBGColorSuccessSelected">@color/steel_blue</item>
+        <item name="cellPaintTextColorSuccessSelected">@color/white</item>
+        <item name="cellPaintTextFontSuccessSelected">@font/roboto_regular</item>
+
+        <!--CELL HINT-->
+        <item name="cellPaintBGColorHint">@color/md_blue_grey_800</item>
+        <item name="cellPaintTextColorHint">@color/white</item>
+        <item name="cellPaintTextFontHint">@font/roboto_regular</item>
+        <!--CELL HINT SELECTED-->
+        <item name="cellPaintBGColorHintSelected">@color/md_blue_grey_800</item>
+        <item name="cellPaintTextColorHintSelected">@color/white</item>
+        <item name="cellPaintTextFontHintSelected">@font/roboto_regular</item>
+
+        <!--CELL ERROR-->
+        <item name="cellPaintBGColorError">@color/md_red_500</item>
+        <item name="cellPaintTextColorError">@color/white</item>
+        <item name="cellPaintTextFontError">@font/roboto_regular</item>
+        <!--CELL ERROR SELECTED-->
+        <item name="cellPaintBGColorErrorSelected">@color/md_red_500</item>
+        <item name="cellPaintTextColorErrorSelected">@color/white</item>
+        <item name="cellPaintTextFontErrorSelected">@font/roboto_regular</item>
+
+        <!--CELL NOTE-->
+        <item name="cellPaintBGColorNote">@color/md_grey_900</item>
+        <item name="cellPaintTextColorNote">@color/md_grey_500</item>
+        <item name="cellPaintTextFontNote">@font/montserrat_regular</item>
+        <!--CELL NOTE SELECTED-->
+        <item name="cellPaintBGColorNoteSelected">@color/md_brown_500</item>
+        <item name="cellPaintTextColorNoteSelected">@color/white</item>
+        <item name="cellPaintTextFontNoteSelected">@font/montserrat_regular</item>
+
+        <!---->
+        <item name="amountBGColor">@color/md_yellow_700</item>
+        <item name="amountTextColor">@color/white</item>
+        <item name="imageButtonControlColor">@color/md_grey_500</item>
+
+        <!--DIALOG-->
+        <item name="backgroundColorDialogStart">@color/dark_grey_800</item>
+        <item name="backgroundColorDialogEnd">@color/dark_grey_900</item>
+
+        <!--ICONS COLOR-->
+        <!--DRAFT ICON-->
+        <item name="iconDraftColor">@color/md_grey_800</item>
+        <item name="iconDraftColorActivity">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Sudoku Genius</string>
+    <string name="new_game">New Game</string>
+    <string name="resume_game">Resume Game</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="select_difficulty">Select difficulty:</string>
+    <string name="game_complete">Game complete!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="play_again">Play again?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="back_to_menu">Back to menu</string>
+    <string name="help">Hint</string>
+    <string name="wrong">Wrong</string>
+    <string name="incorrect_value">Enter a value from 1 to 9</string>
+    <string name="square_conflict">Square conflict</string>
+    <string name="row_conflict">Row conflict</string>
+    <string name="column_conflict">Column conflict</string>
+    <string name="settings">Settings</string>
+    <string name="sound">Sound</string>
+    <string name="music">Music</string>
+    <string name="vibration">Vibration</string>
+    <string name="language">Language</string>
+    <string name="about">About</string>
+    <string name="developer">Developer</string>
+    <string name="version">Version</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share_app">Share App</string>
+    <string name="exit">Exit</string>
+    <string name="loading">Loading…</string>
+    <string name="saving">Saving…</string>
+    <string name="loading_error">Loading error</string>
+    <string name="saving_error">Saving error</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="internet_connection_error">Internet connection error</string>
+    <string name="restart">Restart</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete all</string>
+    <string name="deleted">Deleted</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+
+    <string name="restart_game">Restart game?</string>
+    <string name="reset_board">Reset board?</string>
+    <string name="confirm">Confirm</string>
+    <string name="loading_game">Loading game…</string>
+    <string name="saving_game">Saving game…</string>
+    <string name="game_saved">Game saved</string>
+    <string name="game_loaded">Game loaded</string>
+    <string name="game_save_error">Game save error</string>
+    <string name="game_load_error">Game load error</string>
+    <string name="enter_name">Enter name</string>
+    <string name="save_score">Save score</string>
+    <string name="high_scores">High scores</string>
+    <string name="score">Score</string>
+    <string name="name">Name</string>
+    <string name="rank">Rank</string>
+    <string name="no_scores">No scores</string>
+    <string name="time">Time</string>
+    <string name="moves">Moves</string>
+    <string name="new_high_score">New high score!</string>
+    <string name="high_score_saved">High score saved</string>
+    <string name="high_score_save_error">High score save error</string>
+    <string name="share_score">Share score</string>
+    <string name="share">Share</string>
+    <string name="congratulations_new_high_score">Congratulations! You\'ve set a new high score!</string>
+    <string name="game_over">Game over</string>
+    <string name="game_over_message">Game over! You have exceeded the maximum number of mistakes allowed.</string>
+    <string name="watch_ad">Watch ad</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="ad_reward">After watching the ad, the number of errors will be reduced by 1.</string>
+    <string name="ad_loading_error">Ad loading error. Please try again later.</string>
+    <string name="ad_reward_error">Reward error. Please try again later.</string>
+    <string name="ad_reward_success">You\'ve received a reward for watching the ad. The number of errors has been reduced by 1.</string>
+    <string name="version_name">Version %1$s</string>
+
+    <string name="draft">Draft</string>
+    <string name="reset">Reset</string>
+    <string name="proceed">Proceed</string>
+    <string name="victory">Victory</string>
+    <string name="you_lost">You lost</string>
+    <string name="logout">Logout</string>
+    <string name="errors">Errors</string>
+    <string name="loss">Losing</string>
+    <string name="beginner">Beginner</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="extreme">Extreme</string>
+    <string name="decrement_level_button">Decrement level button</string>
+    <string name="increment_level_button">Increment level button</string>
+    <string name="level">Level</string>
+    <string name="error_limit">Error limit</string>
+    <string name="mistakes_limit">Mistakes: %1$d/%2$d</string>
+    <string name="mistakes">Mistakes: %1$d</string>
+    <string name="reset_confirm">Are you sure you want to restart this game?</string>
+    <string name="solved_sudoku_no_new_record_message">You solved advanced sudoku in %1$s. Your best time is %2$s.</string>
+    <string name="solved_sudoku_message">You solved advanced sudoku in %1$s and beat your best score of %2$s</string>
+
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+
+    <string name="game_restart_confirmation">Your saved progress of previous game will be lost. Are you sure you want to continue?</string>
+    <string name="ask_for_hint_video">Would you like an additional hint? Watch a short video to receive it!</string>
+    <string name="ad_unavailable_try_later">Unfortunately, the ad is currently unavailable. Please try again a bit later.</string>
+
+    <string-array name="actuality">
+        <item>Solving Sudoku has been proven to rejuvenate the brain and slow down cell aging.</item>
+        <item>Sudoku develops memory, logical thinking, helps with concentration and fights the threat of dementia.</item>
+        <item>If you solve 1 Sudoku a day, it will take you about 19 million years, taking into account the number of unique Sudokus.</item>
+        <item>Sudoku is one of the top ten non-traditional and alternative ways to increase brain power.</item>
+        <item>Sudoku is a game for thinking people. If you choose Sudoku every day, patience, attention, memory, logical thinking develop.</item>
+        <item>The Japanese team is the leader in victories in the international sudoku solving tournament. The second most victorious team from Germany.</item>
+        <item>Until recently, the world record for solving Sudoku belonged to the Belgian Vincent Bertrand. His time was 3 minutes 6 seconds.</item>
+        <item>It is absolutely impossible to play Sudoku quickly. Here, the acquired information must be sorted out, memorized, reflected, and made assumptions.</item>
+        <item>By choosing the difficulty level, you influence the initial conditions of the game. The higher the difficulty, the fewer cells are filled with numbers from 1 to 9.</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="theme_button">Theme button</string>
+    <string name="icon_access_time">icon_access_time</string>
+    <string name="hashtag_sudoku">#Sudoku</string>
+    <string name="_copyright">Copyright © 2023 Renat Mussayev. All rights reserved.</string>
+    <string name="total_games">Total games</string>
+    <string name="total_time">Total time</string>
+    <string name="best_time">Best time</string>
+    <string name="last_game_time">Last game time</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="confirm_exit">Are you sure you want to exit?</string>
+    <string name="confirm_exit_game">Do you really want to quit the game?</string>
+
+    <string name="rate_dialog_title">Rate our app</string>
+    <string name="rate_dialog_message">If you enjoy using our app, please take a moment to rate it on the Google Play Store.</string>
+    <string name="rate_dialog_button_rate">Rate Now</string>
+    <string name="rate_dialog_button_later">Remind Me Later</string>
+    <string name="rate_dialog_button_no">No Thanks</string>
+
+    <string name="ID_Interstitial">ca-app-pub-7285015329431504/4047184853</string>
+    <string name="facebook_app_id">191246880448235</string>
+    <string name="expert_mode_description">Expert mode is a mode for experienced players who want to increase their rating. The game in this mode is played without pauses, hints, and without the ability to save progress. To participate in ranked games and increase your rating, you need to log in.</string>
+    <string name="account">Account</string>
+    <string name="theme">Theme</string>
+
+    <string name="sudoku_rules_1">Sudoku is a logic puzzle that consists of a 9x9 grid, divided into 9 3x3 squares. Some cells of the grid are already filled with numbers, while the other cells must be filled in by the player.</string>
+    <string name="sudoku_rules_2">The goal of the game is to fill all the cells of the grid with numbers from 1 to 9, so that each digit appears only once in every row, every column, and every 3x3 square.</string>
+    <string name="sudoku_rules_3">To start the game, select a cell that you want to fill in and tap on it. The selected cell will be highlighted.</string>
+    <string name="sudoku_rules_4">Next, select a number that you want to insert into the selected cell and tap on the button with that number on the toolbar at the bottom of the screen.</string>
+    <string name="sudoku_rules_5">If the number you selected violates the rules of the game (for example, if it\'s already present in the same row, column, or 3x3 square), it will be highlighted in red.</string>
+    <string name="sudoku_rules_6">If the number you selected does not violate the rules of the game, it will be placed in the selected cell.</string>
+    <string name="sudoku_rules_7">Continue filling in the cells until you have filled in all the cells of the grid.</string>
+    <string name="sudoku_rules_8">If you get stuck and don\'t know what number to insert into a cell, you can tap on the "Hint" button on the toolbar to get a hint for the selected cell.</string>
+    <string name="sudoku_rules_9">If you fill in all the cells correctly, congratulations, you have won the game!</string>
+    <string name="guide">Guide</string>
+    <string name="wins">Wins</string>
+    <string name="losses">Losses</string>
+    <string name="game_statistics">Game Statistics</string>
+    <string name="thank_you_review">Thank you for your review!</string>
+    <string name="used_all_hints">Sorry, but you have used all your hints.</string>
+    <string name="disable_error_limit">If you want to play without limitations and without worrying about the number of errors, you can disable this feature. Enjoy your game!</string>
+    <string name="game_description">Guys, your feedback is very important to me as it motivates me to improve the game every day. Please leave a review on Google Play, it will help me understand what can be enhanced and what has already been done well. Thank you for your support and your suggestions!</string>
+</resources>

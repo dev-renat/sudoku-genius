@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <!-- Основной цвет темы, используется для фона и других элементов -->
+        <item name="colorPrimary">@color/md_white</item>
+        <!--используется для создания теней и градиентов, связанных с colorPrimary.-->
+        <item name="colorPrimaryVariant">@color/white</item>
+
+        <!-- Вторичный цвет темы, используется для выделения элементов -->
+        <item name="colorSecondary">@color/light_gray</item>
+        <!--colorSecondaryVariant - используется для создания теней и градиентов, связанных с colorSecondary.-->
+        <item name="colorSecondaryVariant">@color/md_grey_400</item>
+
+        <!-- Цвет текста и значков на цвете colorPrimary -->
+        <item name="colorOnPrimary">@color/md_grey_800</item>
+        <item name="colorOnPrimaryVariant">@color/md_grey_600</item>
+
+        <!-- Цвет текста и значков на цвете colorSecondary -->
+        <item name="colorOnSecondary">@color/md_grey_500</item>
+
+        <!-- Цвет акцентных элементов, таких как кнопки и переключатели -->
+        <item name="colorAccent">@color/md_blue_grey_500</item>
+        <item name="colorAccentVariant">@color/md_blue_grey_400</item>
+
+        <!-- Цвет текста внутри акцентных элементов -->
+        <item name="colorOnAccent">@color/md_white</item>
+
+        <!-- Цвет заголовков в диалоговых окнах -->
+        <item name="colorDialogTitle">@color/md_grey_800</item>
+
+        <!-- Цвет текста в диалоговых окнах -->
+        <item name="colorDialogText">@color/md_grey_600</item>
+
+        <item name="colorLink">@color/md_blue_500</item>
+
+
+
+
+
+
+        <!-- Цвет фона для панели инструментов -->
+        <!--<attr name="colorToolbarBackground" format="color"/>
+
+        &lt;!&ndash; Цвет текста и значков на панели инструментов &ndash;&gt;
+        <attr name="colorToolbarText" format="color"/>
+
+        &lt;!&ndash; Цвет фона для кнопок &ndash;&gt;
+        <attr name="colorButtonBackground" format="color"/>
+
+        &lt;!&ndash; Цвет текста на кнопках &ndash;&gt;
+        <attr name="colorButtonText" format="color"/>
+
+        &lt;!&ndash; Цвет фона для ячеек судоку &ndash;&gt;
+        <attr name="colorCellBackground" format="color"/>
+
+        &lt;!&ndash; Цвет текста в ячейках судоку &ndash;&gt;
+        <attr name="colorCellText" format="color"/>
+
+        &lt;!&ndash; Цвет выделенной ячейки судоку &ndash;&gt;
+        <attr name="colorCellSelected" format="color"/>
+
+        &lt;!&ndash; Цвет текста в выделенной ячейке судоку &ndash;&gt;
+        <attr name="colorCellSelectedText" format="color"/>-->
+
+
+
+
+
+        <!--BUTTON OUTLINE-->
+        <item name="buttonOutlineTextColorPressedFalse">?attr/colorOnPrimary</item>
+        <item name="buttonOutlineTextColorPressedTrue">?attr/colorOnPrimary</item>
+
+
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/_6dp</item>
+
+<!--        <item name="themeSelectStrokeColor">@color/light_gray</item>-->
+<!--        <item name="themeSelectBGColor">@color/light_gray</item>-->
+
+
+        <!--BOARD-->
+        <item name="boardBackgroundColor">@color/white</item>
+        <item name="thickLinePaintColor">@color/md_grey_500</item>
+        <item name="thinLinePaintColor">@color/md_grey_500</item>
+
+        <!--CELL CONFLICTING-->
+        <item name="cellPaintBGColorConflicting">@color/md_grey_400</item>
+        <item name="cellPaintTextColorConflicting">@color/white</item>
+
+        <!--CELL COMMON-->
+        <item name="cellPaintBGColorCommon">@color/silver_gray</item>
+        <item name="cellPaintTextColorCommon">@color/silver_gray</item>
+        <item name="cellPaintTextFontCommon">@font/roboto_regular</item>
+
+        <!--CELL EMPTY-->
+        <item name="cellPaintBGColor">@color/light_gray</item>
+        <item name="cellPaintTextColor">@color/dark_grey_800</item>
+        <item name="cellPaintTextFont">@font/roboto_regular</item>
+        <!--CELL EMPTY SELECTED-->
+        <item name="cellPaintBGColorSelected">@color/md_grey_800</item>
+        <item name="cellPaintTextColorSelected">@color/white</item>
+        <item name="cellPaintTextFontSelected">@font/roboto_regular</item>
+
+        <!--CELL STARTING-->
+        <item name="cellPaintBGColorStarting">@color/light_gray</item>
+        <item name="cellPaintTextColorStarting">@color/md_grey_800</item>
+        <item name="cellPaintTextFontStarting">@font/roboto_regular</item>
+
+        <!--CELL SUCCESS-->
+        <item name="cellPaintBGColorSuccess">@color/md_blue_grey_400</item>
+        <item name="cellPaintTextColorSuccess">@color/white</item>
+        <item name="cellPaintTextFontSuccess">@font/roboto_regular</item>
+        <!--CELL SUCCESS SELECTED-->
+        <item name="cellPaintBGColorSuccessSelected">@color/md_blue_grey_400</item>
+        <item name="cellPaintTextColorSuccessSelected">@color/white</item>
+        <item name="cellPaintTextFontSuccessSelected">@font/roboto_regular</item>
+
+        <!--CELL HINT-->
+        <item name="cellPaintBGColorHint">@color/md_yellow_900</item>
+        <item name="cellPaintTextColorHint">@color/white</item>
+        <item name="cellPaintTextFontHint">@font/roboto_regular</item>
+        <!--CELL HINT SELECTED-->
+        <item name="cellPaintBGColorHintSelected">@color/md_yellow_900</item>
+        <item name="cellPaintTextColorHintSelected">@color/white</item>
+        <item name="cellPaintTextFontHintSelected">@font/roboto_regular</item>
+
+        <!--CELL ERROR-->
+        <item name="cellPaintBGColorError">@color/md_red_600</item>
+        <item name="cellPaintTextColorError">@color/white</item>
+        <item name="cellPaintTextFontError">@font/roboto_regular</item>
+        <!--CELL ERROR SELECTED-->
+        <item name="cellPaintBGColorErrorSelected">@color/md_red_600</item>
+        <item name="cellPaintTextColorErrorSelected">@color/white</item>
+        <item name="cellPaintTextFontErrorSelected">@font/roboto_regular</item>
+
+        <!--CELL NOTE-->
+        <item name="cellPaintBGColorNote">@color/light_gray</item>
+        <item name="cellPaintTextColorNote">@color/md_grey_800</item>
+        <item name="cellPaintTextFontNote">@font/montserrat_regular</item>
+        <!--CELL NOTE SELECTED-->
+        <item name="cellPaintBGColorNoteSelected">@color/md_grey_800</item>
+        <item name="cellPaintTextColorNoteSelected">@color/white</item>
+        <item name="cellPaintTextFontNoteSelected">@font/montserrat_regular</item>
+
+        <!---->
+        <item name="amountBGColor">@color/md_yellow_700</item>
+        <item name="amountTextColor">@color/white</item>
+<!--        <item name="imageButtonControlColor">@color/md_grey_500</item>-->
+
+        <!--ICONS COLOR-->
+        <!--DRAFT ICON-->
+        <item name="iconDraftColor">@color/md_grey_800</item>
+        <item name="iconDraftColorActivity">@color/white</item>
+    </style>
+</resources>
